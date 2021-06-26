@@ -1,0 +1,342 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url('../FakePizza/images/FrontPagePizza.jpg');
+  background-size: 20%;
+  background-repeat: repeat-x;
+  background-attachment:scroll;
+}
+
+.navbar{
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+.navbar a{
+  font-size: 30px;
+}
+
+.header{
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.title{
+  margin-top: 26%;
+  margin-left: 15%;
+  display: inline-block;
+  
+}
+
+.title h1{
+  text-transform:uppercase;
+  font-family: 'Amatic SC', cursive;
+  font-size: 75px;
+}
+
+.pizza1{
+  float:right;
+  margin-bottom: 0%;
+  margin-top:35%;
+  margin-right:10%;
+  height: 35%;
+  width: 45%;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.pizza2{
+  display:inline-block;
+  margin-top:2%;
+  margin-left:15%;
+  height: 15%;
+  width: 25%;
+}
+
+.menu{
+  text-align: center;
+  margin: 5% 0% 5% 0%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
+
+.appetizers{
+  text-align: center;
+}
+
+.appetizers h2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
+
+.appetizers h5{
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+.SpecialtyPizza{
+  text-align: center;
+}
+
+.SpecialtyPizza h2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
+
+.SpecialtyPizza h5{
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+.CustomPizza{
+  text-align: center;
+}
+
+.CustomPizza h2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
+
+.CustomPizza h5{
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+.bevs{
+   text-align: center;
+ }
+
+ .bevs h2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
+
+.bevs h5{
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+.about{
+  margin-top: 4%;
+  display: inline-block;
+}
+
+.about h1{
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
+
+
+.pizzaGif{
+  vertical-align:top;
+}
+
+.pizzaGif2{
+  display:none;
+}
+
+
+.contact h1{
+  margin-top: 5%;
+  margin-bottom: none;
+  font-family: 'Amatic SC', cursive;
+  font-size:50px;
+
+}
+
+.card{
+ margin-top: 5%;
+ display: inline;
+ max-width: 540px;
+ margin-bottom: 25%;
+}
+
+.email{
+  margin-top: 25%;
+  width:100%;
+}
+
+
+
+@media (max-width: 699px) {
+  body{
+    background-image: url('../FakePizza/images/FrontPagePizza.jpg');
+    background-size:100% 12%;
+    background-attachment:scroll;
+    background-repeat:no-repeat;
+
+  }
+  .title{
+    margin-left: 5%;
+    display: inline-block;
+  }
+
+  .title h1{
+    margin-top: 90%;
+  }
+
+  .pizza1{
+    display:none;
+  }
+  
+  .pizza2{
+    margin-bottom: 5%;
+    margin-left: 0%;
+    margin-top:15%;
+    height: 100%;
+    width: 100%;
+    float: left;
+  }
+
+  .pizzaGif{
+    width:40%;
+    margin-left: 33%;
+  }
+
+  .about{
+    text-align: center;
+  }
+
+  .about card-text{
+    text-align: left;
+  }
+
+  .card{
+    width:100%;
+    margin-bottom: 50%;
+    margin-left:15%;
+    max-width: 275px;
+  }
+}
+
+@media only screen and (min-device-width: 700px) and (max-device-width: 1025px) {
+  body{
+    background-image: url('../FakePizza/images/FrontPagePizza.jpg');
+    background-size:100% 15%;
+    background-attachment:scroll;
+    background-repeat: repeat-x;
+
+  }
+  .title{
+    margin-top: 135%;
+    margin-left: 5%;
+    display: inline-block;
+  }
+  .pizza1{
+    margin-bottom: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top:15%;
+    height: 100%;
+    width: 100%;
+    float:left;
+ 
+  }
+  
+  .pizza2{
+    margin-bottom: 5%;
+    margin-left: 0%;
+    margin-top:15%;
+    height: 100%;
+    width: 100%;
+    float: left;
+  }
+
+  .menu{
+    text-align: center;
+    margin: 5% 0% 5% 0%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+  }
+  
+  .appetizers{
+    text-align: center;
+  }
+  
+  .appetizers h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 110px;
+  }
+  
+  .appetizers h5{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+  }
+  
+  .SpecialtyPizza{
+    text-align: center;
+  }
+  
+  .SpecialtyPizza h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+  }
+  
+  .SpecialtyPizza h5{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+  }
+  
+  .CustomPizza{
+    text-align: center;
+  }
+  
+  .CustomPizza h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+  }
+  
+  .CustomPizza h5{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+  }
+  
+  .bevs{
+     text-align: center;
+   }
+  
+   .bevs h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+  }
+  
+  .bevs h5{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+  }
+
+  .pizzaGif{
+    margin-left:30%;
+  }
+
+  .pizzaGif2{
+    display:none;
+  }
+
+  .about{
+    margin-left: 0%;
+    text-align: center;
+  }
+
+  .about card-text{
+    text-align: left;
+  }
+
+  .card{
+    width:400px;
+    margin-bottom: 30%;
+    margin-left: 25%;
+  }
+
+
+}
+
+
+
