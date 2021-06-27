@@ -167,7 +167,7 @@ body{
 
 @media (max-width: 699px) {
   body{
-    background-image: url('../FakePizza/images/FrontPagePizza.jpg');
+    background-image: url('images/FrontPagePizza.jpg');
     background-size:100% 12%;
     background-attachment:scroll;
     background-repeat:no-repeat;
@@ -218,7 +218,7 @@ body{
 
 @media only screen and (min-device-width: 700px) and (max-device-width: 1025px) {
   body{
-    background-image: url('../FakePizza/images/FrontPagePizza.jpg');
+    background-image: url('images/FrontPagePizza.jpg');
     background-size:100% 15%;
     background-attachment:scroll;
     background-repeat: repeat-x;
