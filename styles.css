@@ -4,7 +4,7 @@ html{
 }
 
 body{
-  background-image: url('../FakePizza/images/FrontPagePizza.jpg');
+  background-image: url('images/FrontPagePizza.jpg');
   background-size: 20%;
   background-repeat: repeat-x;
   background-attachment:scroll;
